@@ -8,10 +8,11 @@ def main(S, d):
     Returns:
         float: result
     '''
-    S = 25
-    d = 4
+   
     a = (S - d ** 2)/ (2 * d)
     b = a + d
     x = b - (a ** 2)/(2 * b)
     return x
+S = 25
+d = 4
 print(main(25, 4))
