@@ -14,3 +14,4 @@ def main(S, d):
     b = a + d
     x = b - (a ** 2)/(2 * b)
     return x
+print(main(25, 4))
