@@ -8,8 +8,8 @@ def main(S, d):
     Returns:
         float: result
     '''
-    S = 78
-    d = 8
+    S = 25
+    d = 4
     a = (S - d ** 2)/ (2 * d)
     b = a + d
     x = b - (a ** 2)/(2 * b)
